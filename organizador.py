@@ -48,12 +48,13 @@ Nombre del libro = libro(referencia, nombre, precio, descripcion del libro, auto
 while True:
     try:
         print("""
+Se encuentra en el MENU:
 1)Si quiere ver los libros en la biblioteca oprima el numero 1
 2)Quiere ver los generos que hay? oprima 2
-3) si quiere salir del programa """)
+3)Si quiere salir del programa """)
         respuesta = int(input('Seleccione: '))
         if respuesta == 1:
-            lista = [Biblia, Odisea, La_prehistoria, Abezooocéano]
+            lista = [Biblia, Odisea, La_prehistoria, Abezooocéano,El_Resplandor,Doctor_sueño]
             for l in lista:
                 print (l, '\n')
         elif respuesta == 2:
