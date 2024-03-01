@@ -22,10 +22,12 @@ ISBN \t\t{}""".format(self.referencia, self.nombre, self.precio, self.descripcio
 
 #Introduce todos los libros dentro del Try
 try:
-    Biblia = libro('000A', 'La Biblia', 50000, 'testamento sobre la existencia de Dios', 'Moises_desconocido','978-8428543231')
+    Biblia = libro('001C', 'La Biblia', 50000, 'testamento sobre la existencia de Dios', 'Moises_desconocido','978-8428543231')
     Odisea = libro('001A', 'Odisea', 60000, 'Narra la historia del héroe griego Odiseo','Homero','978-84-670-5005-9')
-    La_prehistoria = libro('0002A','La prehistoria ',65000,'Amplio paseo por el origen del ser humano','Cécile Benoist','978-8414016640')
-    Abezooocéano = libro('0003A', 'Abezooocéano', 70000, 'Un abecedario con 29 poemas de animales marinos', 'Carlos Reviejo', '978-8413921051')
+    La_prehistoria = libro('0001E','La prehistoria ',65000,'Amplio paseo por el origen del ser humano','Cécile Benoist','978-8414016640')
+    Abezooocéano = libro('0001E', 'Abezooocéano', 70000, 'Un abecedario con 29 poemas de animales marinos', 'Carlos Reviejo', '978-8413921051')
+    El_Resplandor = libro('0001F','El Resplandor',40000,'REDRUM. Ésa es la palabra que Danny había visto en el espejo','Stephen King','978-9875668478')
+    Doctor_sueño = libro('0002F','Doctor sueño',37050,'Secuela de {}'.format(El_Resplandor.nombre),'Stephen King','978-9585579286')
 except TypeError:
     
     print("""
