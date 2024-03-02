@@ -28,6 +28,16 @@ try:
     Abezooocéano = libro('0001E', 'Abezooocéano', 70000, 'Un abecedario con 29 poemas de animales marinos', 'Carlos Reviejo', '978-8413921051')
     El_Resplandor = libro('0001F','El Resplandor',40000,'REDRUM. Ésa es la palabra que Danny había visto en el espejo','Stephen King','978-9875668478')
     Doctor_sueño = libro('0002F','Doctor sueño',37050,'Secuela de {}'.format(El_Resplandor.nombre),'Stephen King','978-9585579286')
+    Moby_Dick = libro ('001K', 'Moby Dick', 59000, 'Un capitán obsesionado con cazar a la ballena blanca, Moby Dick', 'Herman Melville', '978-8445071404')
+    Los_miserables = libro ('001L', 'Los miserables', 54000, 'La historia de Jean Valjean y su lucha por la redención en la Francia del siglo XIX', 'Victor Hugo', '978-8423342698')
+    La_iliada = libro ('001M', 'La Ilíada', 62000, 'Poema épico que narra los sucesos ocurridos durante la guerra de Troya', 'Homero', '978-8424931791')
+    El_padrino = libro ('001O', 'El Padrino', 48000, 'Historia de la familia mafiosa Corleone, especialmente su líder, Don Vito Corleone', 'Mario Puzo', '978-0451205766')
+    La_divina_comedia = libro ('001P', 'La Divina Comedia', 55000, 'Poema épico en el que se describe el viaje de Dante por el Infierno, el Purgatorio y el Paraíso', 'Dante Alighieri', '978-8424921280')
+    Anna_Karenina = libro ('001Q', 'Anna Karenina', 51000, 'La historia de un triángulo amoroso entre Anna, su esposo Karenin y el oficial Vronsky', 'León Tolstói', '978-8491051681')
+    El_retorno_del_rey = libro ('001R', 'El retorno del rey', 60000, 'Última parte de la trilogía de El Señor de los Anillos, donde se resuelve la guerra contra Sauron', 'J.R.R. Tolkien', '978-8445001364')
+    La_metamorfosis = libro ('001S', 'La metamorfosis', 47000, 'Gregor Samsa se despierta una mañana y descubre que se ha transformado en un insecto gigante', 'Franz Kafka', '978-8437608427')
+    El_extranjero = libro ('001T', 'El extranjero', 49000, 'La historia de Meursault, un hombre indiferente ante la vida y la muerte', 'Albert Camus', '978-8420674208')
+    El_principito = libro ('001T', 'El Principito', 35000, 'Una narración poética sobre la amistad y la búsqueda de sentido en la vida', 'Antoine de Saint-Exupéry', '978-0307476121')
 except TypeError:
     
     print("""
@@ -54,7 +64,7 @@ Se encuentra en el MENU:
 3)Si quiere salir del programa """)
         respuesta = int(input('Seleccione: '))
         if respuesta == 1:
-            lista = [Biblia, Odisea, La_prehistoria, Abezooocéano,El_Resplandor,Doctor_sueño]
+            lista = [Biblia, Odisea, La_prehistoria, Abezooocéano,El_Resplandor,Doctor_sueño,Moby_Dick,Los_miserables, La_iliada, El_padrino,La_divina_comedia,Anna_Karenina,El_retorno_del_rey,La_metamorfosis,El_extranjero,El_principito]
             for l in lista:
                 print (l, '\n')
         elif respuesta == 2:
