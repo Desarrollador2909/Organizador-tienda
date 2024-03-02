@@ -54,7 +54,7 @@ Se encuentra en el MENU:
 3)Si quiere salir del programa """)
         respuesta = int(input('Seleccione: '))
         if respuesta == 1:
-            lista = [Biblia, Odisea, La_prehistoria, Abezooocéano,El_Resplandor,Doctor_sueño]
+            lista = [Biblia, Odisea, La_prehistoria, Abezooocéano,El_Resplandor,Doctor_sueño,Moby_Dick,Los_miserables,La_iliada,El_padrino,La_divina_comedia,Anna_Karenina,El_retorno_del_rey, La_metamorfosis.El_extranjero.El_principito]
             for l in lista:
                 print (l, '\n')
         elif respuesta == 2:
